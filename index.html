@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" autocomplete="off" onsubmit="return validation()">
+        <div class="form-body">
+            <Table>
+                <tr><th colspan="2">Registration Form</th></tr>
+                <tr>
+                    <td><label for="fname">Full name</label></td>
+                    <td><input type="text" id="user"></td>
+                </tr>
+                <tr><td><span id="userr"></span></td></tr>
+                <tr>
+                    <td><label for="Birth cert no">Birth Cert No</label></td>
+                    <td><input type="text" id="cert"></td>
+                    
+                </tr>
+                <tr><td><span id="certt"></span></td></tr>
+                <tr>
+                    <td><label for="reg no">Reg No</label></td>
+                    <td><input type="text" id="reg"></td>
+                    
+                </tr>
+                <tr><td><span id="regg"></span></td></tr>
+                <tr>
+                    <td><label for="DOB">D.O.B</label></td>
+                    <td><input type="text"name="dob"placeholder="dd/mm/yyyy"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><input type="text" id="address"></td>
+                </tr>
+                <tr><td><span id="addresss"></span></td></tr>
+                <tr>
+                    <td><label for="marital status">Marital status</label></td>
+                    <td> <input type="radio"name="marital" id="status">single</td>  
+                </tr>
+                <tr>
+                    <td><label for="marital status"></label></td>
+                    <td> <input type="radio"name="marital" id="status">Married</td>
+                </tr>
+                <tr><td><span id="statuss"></span></td></tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" id="email"name="email"placeholder="jackie@gmail.com" ></td>   
+                </tr>
+                <tr><td><span id="emaill"></span></td></tr>
+                <tr>
+                    <td><label for="phone_no">phone No.</label></td>
+                    <td><input type="number" id="phone"name="phone" ></td>
+                </tr>
+                <tr><td><span id="phonee"></span></td></tr>
+                <tr>
+                    <td><label for="county">county</label></td>
+                    <td><input type="select"name="county" ></td>
+                </tr>
+                <tr>
+                    <td><label for="course">course</label></td>
+                    <td><input type="text"name="course"></td>
+                </tr>
+                <tr><td><input type="submit" class="btn"name="submit" value="submit" required></td></tr>
+            </Table>
+        </div>
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
